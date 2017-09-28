@@ -2,9 +2,15 @@
 
 
 
+body, html {
+    height: 100%;
 
+}
 
+body {
 
+    background-color: transparent;
+}
 
 
 .sidebar-nav {
@@ -147,6 +153,172 @@ margin: 0 6% 8% 10%;
 
 
 
+
+
+
+
+.parallax {
+    /* The image used */
+    background-image: url('https://livedemo00.template-help.com/wt_52897/img/index_parallax.jpg');
+
+    /* Full height */
+    min-height: 20%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center  ;
+}
+
+.parallax h1 {
+    font-family: 'Play', sans-serif;
+    font-weight: 800;
+    padding-top: 5%;
+}
+
+.parallax p {
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+
+.cards {
+
+margin-left: 8%;
+
+max-width: 22%;
+    background-color: #FFFFFF;
+}
+
+.img-icon {
+padding-top: 5%;
+margin: 8px 0px 0px 30px;
+    float: left;
+}
+
+.card-tittle {
+
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.card-block {
+
+    padding-bottom: 15%;
+}
+.card-block p {
+
+    padding-bottom: 5%;
+}
+
+.button-card {
+
+    background-color: #c31401;
+    color: #ffffff;
+    font: 400 12px/20px 'Ubuntu',sans-serif;
+    text-align: center;
+    border: none;
+    display: inline-block;
+    margin: 10px auto 0;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    letter-spacing: 2px;
+
+}
+
+.button-card:hover {
+
+    background-color: #c2685e;
+    color: #ffffff;
+}
+
+
+.button-card2 {
+    background-color: #59933e;
+    color: #ffffff;
+    font: 400 12px/20px 'Ubuntu',sans-serif;
+    text-align: center;
+    border: none;
+    display: inline-block;
+    margin: 10px auto 0;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    letter-spacing: 2px;
+}
+
+.button-card2:hover {
+
+    background-color: rgb(148,206,121);
+    color: #ffffff;
+}
+
+.button-card3 {
+    background-color: #3e3e3e;
+    color: #ffffff;
+    font: 400 12px/20px 'Ubuntu',sans-serif;
+    text-align: center;
+    border: none;
+    display: inline-block;
+    margin: 10px auto 0;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    letter-spacing: 2px;
+}
+
+.button-card3:hover {
+
+    background-color: rgb(114,113,113);
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+.google-maps {
+    position: relative;
+    padding-bottom: 30%;
+height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .footer {
 
     /*background: white;*/
@@ -155,7 +327,7 @@ margin: 0 6% 8% 10%;
 /*background: ;*/
   /*background-color: #CCCCCC;*/
     opacity: 0.8;
-    background-color: rgb(157,122,90);
+    background-color: #FFFFFF;
 }
 .footer-tag {
     font-family: 'Play', sans-serif;
