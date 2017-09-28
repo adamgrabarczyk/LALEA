@@ -312,6 +312,70 @@ height: 0;
 
 
 
+/*about site*/
+
+.about {
+
+    padding-top: 10%;
+}
+
+
+.thumb-about {
+    border: none;
+
+}
+
+
+.about-card {
+
+    margin-left: 4%;
+    width: 20%;
+}
+
+
+.img-person {
+
+    padding: 15px;
+}
+
+.about h2 {
+    padding: 5%;
+    font-family: 'Play', sans-serif;
+    font-weight: 800;
+    font-size: 2.5em;
+}
+
+.thumb-about .caption p strong:hover {
+
+    color: #EC4D1B;
+    transition: 0.4s;
+    cursor: pointer;
+
+}
+
+/*about end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
