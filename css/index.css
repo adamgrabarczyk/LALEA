@@ -489,14 +489,42 @@ float: left;
     width: 33%;
 margin-left: 10%;
     padding-top: 10%;
+text-align: center;
+}
+
+.offer-card {
+
+    text-align: center;
 
 }
 
 
 .img-offer {
 
-    /*width: 200px;*/
-    /*height: 50px;*/
+   padding: 15px;
+}
+
+
+.offer-button {
+    background-color: #c31401;
+    color: #ffffff;
+    font: 400 12px/20px 'Ubuntu',sans-serif;
+    text-align: center;
+    border: none;
+    display: inline-block;
+    margin: 10px auto 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    letter-spacing: 2px;
+
+}
+
+.offer-button:hover {
+    background-color: #c2685e;
+    color: #ffffff;
 }
 /*offer end*/
 
