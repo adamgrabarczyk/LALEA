@@ -485,11 +485,12 @@ float: left;
 }
 
 .offer-card-2 {
-
+border-radius: 0px;
     width: 33%;
 margin-left: 10%;
     padding-top: 10%;
 text-align: center;
+
 }
 
 .offer-card {
@@ -534,6 +535,12 @@ text-align: center;
     background-color: #c2685e;
     color: #ffffff;
 }
+
+.thumb {
+
+    border-radius: 0px;
+}
+
 
 
 /*offer end*/
