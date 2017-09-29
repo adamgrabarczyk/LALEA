@@ -498,6 +498,14 @@ text-align: center;
 
 }
 
+.offer-card h3 {
+    color: #C31401;
+}
+
+
+.offer-card-2 h3 {
+    color: #C31401;
+}
 
 .img-offer {
 
@@ -526,6 +534,8 @@ text-align: center;
     background-color: #c2685e;
     color: #ffffff;
 }
+
+
 /*offer end*/
 
 
