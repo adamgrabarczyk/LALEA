@@ -12,6 +12,7 @@ body {
     background-color: transparent;
 }
 
+/*NAWIGACJA*/
 
 .sidebar-nav {
     padding: 9px 0;
@@ -63,7 +64,79 @@ min-width: 90px;
 }
 
 
-/*nawigacja*/
+@media screen and (max-width: 1200px) {
+
+    .navbar-default .navbar-nav > li > a {
+        /*font-size: 1.3em;*/
+        margin-top: 30px;
+        width: auto;
+        font-size: 1em;
+        min-width: inherit;
+    }
+}
+@media screen and (min-width: 994px)  and (max-width: 1000px) {
+
+    .navbar-default .navbar-nav > li > a {
+        margin-top: 25px;
+
+    }
+
+
+    .logo {
+margin-left: 2%;
+        width: 70%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 994px){
+
+    .logo {
+        margin-left: 2%;
+        /*width: 70%;*/
+    }
+
+    @media screen and (max-width: 993px){
+
+        .logo {
+            margin-left: 2%;
+            /*width: 70%;*/
+        }
+
+}
+
+    @media screen and (max-width: 992px){
+
+        .logo {
+            margin-left: -20%;
+
+        }
+
+        .navbar-default .navbar-nav > li > a {
+            margin-top: -15px;
+
+        }
+
+
+    }
+
+
+    @media screen and (max-width: 767px){
+
+        .logo {
+            margin-left: -10%;
+
+        }
+
+
+
+
+    }
+
+
+/*nawigacja END*/
 
 
 
