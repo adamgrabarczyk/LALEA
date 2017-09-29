@@ -456,6 +456,15 @@ height: 0;
 
 }
 
+
+.fa-heart {
+float: left;
+    color: #C31401;
+    padding-right: 10px;
+    padding-top: 10px;
+
+}
+
 /*about end*/
 
 
@@ -467,11 +476,29 @@ height: 0;
 
 
 
+/*Offer site*/
 
 
+.offer {
+    padding-top: 10%;
+
+}
+
+.offer-card-2 {
+
+    width: 33%;
+margin-left: 10%;
+    padding-top: 10%;
+
+}
 
 
+.img-offer {
 
+    /*width: 200px;*/
+    /*height: 50px;*/
+}
+/*offer end*/
 
 
 
