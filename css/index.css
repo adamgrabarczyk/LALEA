@@ -556,7 +556,53 @@ text-align: center;
 }
 
 
+#contact textarea {
 
+    width: 100%;
+    background: #ffffff;
+    font-size: 14px;
+    outline: none;
+    resize: none;
+    height: 240px;
+    border: 1px solid #d2d2d2;
+    color: #2d2d2d;
+    padding: 11px 10px 10px 20px;
+    font-family: 'Open Sans',sans-serif;
+    border-radius: 0px;
+}
+
+.contact-input {
+
+    width: 100%;
+    background: #ffffff;
+    line-height: 43px;
+    height: 43px;
+    font-size: 14px;
+    padding: 0 0 0 20px;
+    outline: none;
+    margin: 0;
+    color: #2d2d2d;
+    border: 1px solid #d2d2d2;
+    border-radius: 0px;
+}
+
+.contact-input:focus {
+    border-color: #333;
+    color: #333;
+    box-shadow: none;
+
+}
+
+#contact textarea:focus {
+    border-color: #333;
+    color: #333;
+    box-shadow: none;
+}
+
+.contact-data {
+
+    padding-top: 10%;
+}
 
 /*contact end*/
 

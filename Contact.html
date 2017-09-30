@@ -54,7 +54,7 @@
                 <!--<li><a href="#">One more separated link</a></li>-->
                 <!--</ul>-->
                 <!--</li>-->
-                <li><a href="">Oferta</a></li>
+                <li><a href="offer.html">Oferta</a></li>
                 <li><a href="" >Cennik</a></li>
                 <li><a href="">Galeria</a></li>
                 <li><a href="Contact.html" >Kontakt</a></li>
@@ -69,31 +69,36 @@
 
 <div class="container contact-form">
     <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-4 col-md-3 contact-data">
             <h3>Drop me a line!</h3>
-            <hr>
+            <br>
             <address>
                 <strong>Email:</strong> <a href="mailto:#"> name@domain.com</a><br><br>
                 <strong>Phone:</strong> (555)123-4567
             </address>
         </div>
 
-        <div class="col-sm-8 contact-form">
+        <div class="col-sm-8 col-md-9 contact-form">
             <form id="contact" method="post" class="form" role="form">
+                <h3>Formularz kontaktowy</h3>
                 <div class="row">
-                    <div class="col-xs-6 col-md-6 form-group">
-                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required autofocus />
+                    <div class="col-xs-6 col-md-4 form-group">
+                        <input class="form-control contact-input" id="name" name="name" placeholder="Imię" type="text" required autofocus />
                     </div>
-                    <div class="col-xs-6 col-md-6 form-group">
-                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+                    <div class="col-xs-6 col-md-4 form-group">
+                        <input class="form-control contact-input" id="email" name="email" placeholder="Email" type="email" required />
                     </div>
+                    <div class="col-xs-6 col-md-4 form-group">
+                        <input class="form-control contact-input" id="phone" name="phone" placeholder="Telefon" type="text" required autofocus />
+                    </div>
+
                 </div>
-                <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+                <textarea class="form-control" id="message" name="message" placeholder="Wiadomość" rows="5"></textarea>
                 <br />
                 <div class="row">
                     <div class="col-xs-12 col-md-12 form-group">
-                        <button class="btn btn-primary pull-right" type="submit">Submit</button>
-
+                        <!--<button class="btn btn-primary pull-right" type="submit">Submit</button>-->
+                        <p><a href="#" class="btn btn-primary offer-button" role="button">Button</a> </p>
                     </div>
                 </div>
             </form>
