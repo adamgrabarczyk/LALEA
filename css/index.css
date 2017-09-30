@@ -586,6 +586,11 @@ text-align: center;
     border-radius: 0px;
 }
 
+.form-group {
+padding-top: 2.5%;
+    /*padding-bottom: 1%;*/
+}
+
 .contact-input:focus {
     border-color: #333;
     color: #333;
@@ -602,6 +607,23 @@ text-align: center;
 .contact-data {
 
     padding-top: 10%;
+}
+
+.contact-data p {
+
+    font: 400 16px/25px 'Ubuntu',sans-serif;
+    color: #222222;
+    margin: 0 auto;
+    letter-spacing: -0.3px;
+
+}
+
+
+.contact-data p span {
+
+    width: 105px;
+    display: inline-block;
+
 }
 
 /*contact end*/
