@@ -151,6 +151,63 @@ width: 30%;
 
 
 
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: -108px;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control
+.glyphicon-chevron-right, .carousel-control .icon-next,
+.carousel-control .icon-prev {
+
+    width: 96px;
+    height: 96px;
+    margin-top: -10px;
+    font-size: 0px;
+
+}
+
+.slide-prev {
+
+    position: absolute;
+    display: block;
+    bottom: 45%;
+    cursor: pointer;
+    z-index: 1000;
+    opacity: 1;
+    height: 95px;
+    width: 95px;
+    filter: alpha(opacity=100);
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+    background-image: url(../images/rows.png);
+    background-repeat: no-repeat;
+    left: 0%;
+    background-position: -8px 0;
+}
+
+
+.slide-next {
+    position: absolute;
+     display: block;
+    bottom: 45%;
+     cursor: pointer;
+    z-index: 1000;
+    opacity: 1;
+    height: 95px;
+    width: 95px;
+    filter: alpha(opacity=100);
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+    background-image: url(../images/rows.png);
+    background-repeat: no-repeat;
+    right: 0%;
+    background-position: -103px 0;
+}
+
+
+
+
+
 
 
 
