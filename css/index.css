@@ -152,7 +152,7 @@ width: 30%;
 
 
 .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
-    margin-left: -108px;
+    margin-left: -50%;
 }
 
 .carousel-control .glyphicon-chevron-left, .carousel-control
@@ -202,12 +202,19 @@ width: 30%;
     background-repeat: no-repeat;
     right: 0%;
     background-position: -103px 0;
+
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+
+    margin-right: -50%;
 }
 
 
-
-
-
+.carousel-control.left, .carousel-control.right {
+    background-image:none !important;
+    filter:none !important;
+}
 
 
 
@@ -225,6 +232,9 @@ background-color: aqua;
 }
 
 
+.img-slider {
+    width: 100%;
+}
 
 
 .slider {
