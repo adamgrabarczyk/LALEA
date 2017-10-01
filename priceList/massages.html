@@ -1,14 +1,632 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title></title>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    `<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="icon" type="image/png" href="" sizes="16x16"/>
+
+
+    <script src="../js/jquery-3.2.0.min.js"></script>
 </head>
 <body>
 
 
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button"
+                    class="navbar-toggle collapsed"
+                    data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false"
+            >
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="../images/laleo-logo.png" alt="" class="logo img-responsive">
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse"
+             id="bs-example-navbar-collapse-1"
+        >
+            <ul class="nav navbar-nav navbar-right" id="nav">
+                <li><a href="../index.html">Strona Główna</a></li>
+                <li><a href="">Aktualności</a></li>
+                <li><a href="../about.html">O nas</a></li>
+                <!--<li class="dropdown">-->
+                <!--<a class="dropdown-toggle disabled" data-toggle="dropdown" value="Project's.html" href="Project's" id="gallery" role="button" aria-haspopup="true" aria-expanded="false">Projekty<span class="caret"></span></a>-->
+                <!--<ul class="dropdown-menu">-->
+                <!--<li><a href="">Action</a></li>-->
+                <!--<li><a href="#">Another action</a></li>-->
+                <!--<li><a href="#">Something else here</a></li>-->
+                <!--<li role="separator" class="divider"></li>-->
+                <!--<li><a href="#">Separated link</a></li>-->
+                <!--<li role="separator" class="divider"></li>-->
+                <!--<li><a href="#">One more separated link</a></li>-->
+                <!--</ul>-->
+                <!--</li>-->
+                <li><a href="../offer.html">Oferta</a></li>
+                <li><a href="../priceList.html" >Cennik</a></li>
+                <li><a href="">Galeria</a></li>
+                <li><a href="../Contact.html" >Kontakt</a></li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
 
 
 
+<div class="container-fluid price-massage">
+
+
+    <ul class="pricing_table">
+    <li class="price_block">
+        <!--<h3>Usługa</h3>-->
+        <div class="price">
+            <div class="price_figure">
+                <span class="price_number">Masaż klasyczny </span>
+            </div>
+        </div>
+        <ul class="features">
+            <li>Ręce</li>
+            <li>Nogi</li>
+            <li>Plecy</li>
+            <li>Całe ciało</li>
+        </ul>
+    </li>
+    <li class="price_block">
+        <!--<h3>Czas</h3>-->
+        <div class="price">
+            <div class="price_figure">
+                <span class="price_number">Czas</span>
+                <span class="price_tenure"></span>
+            </div>
+        </div>
+        <ul class="features">
+            <li>20 min.</li>
+            <li>30 min.</li>
+            <li>45 min</li>
+            <li>60 min./120 min.</li>
+
+        </ul>
+    </li>
+    <li class="price_block">
+        <!--<h3>Cena</h3>-->
+        <div class="price">
+            <div class="price_figure">
+                <span class="price_number">Cena</span>
+                <span class="price_tenure"></span>
+            </div>
+        </div>
+        <ul class="features">
+            <li>35 zł</li>
+            <li>50 zł</li>
+            <li>70 zł</li>
+            <li>90 zł/120 zł</li>
+
+        </ul>
+    </li>
+    <li class="price_block">
+        <!--<h3>Pakiet</h3>-->
+        <div class="price">
+            <div class="price_figure">
+                <span class="price_number">Pakiet</span>
+            </div>
+        </div>
+        <ul class="features">
+            <li>-</li>
+            <li>-</li>
+            <li>10 zabiegów w cenie 9.</li>
+            <li>10 zabiegów w cenie 9.</li>
+
+        </ul>
+    </li>
+</ul></div>
+
+<div class="container-fluid">
+
+
+    <ul class="pricing_table">
+        <li class="price_block">
+            <!--<h3>Usługa</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Masaż relaksacyjny</span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>Plecy</li>
+                <li>Plecy i Nogi</li>
+                <li>Całe ciało</li>
+            </ul>
+        </li>
+        <li class="price_block">
+            <!--<h3>Czas</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Czas</span>
+                    <span class="price_tenure"></span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>30 min.</li>
+                <li>60 min.</li>
+                <li>90 min</li>
+
+
+            </ul>
+        </li>
+        <li class="price_block">
+            <!--<h3>Cena</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Cena</span>
+                    <span class="price_tenure"></span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>60 zł</li>
+                <li>85 zł</li>
+                <li>130 zł</li>
+
+            </ul>
+        </li>
+        <li class="price_block">
+            <!--<h3>Pakiet</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Pakiet</span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>10 zabiegów w cenie 9.</li>
+                <li>10 zabiegów w cenie 9.</li>
+                <li>10 zabiegów w cenie 9.</li>
+
+
+            </ul>
+        </li>
+    </ul></div>
+
+
+<div class="container-fluid">
+
+
+    <ul class="pricing_table">
+        <li class="price_block">
+            <!--<h3>Usługa</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Masaż sportowy</span><br><span class="price_number">lub izometryczny</span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>Ręce/Nogi</li>
+                <li>całościowy</li>
+                <li>Pojedyncza koniczyna</li>
+            </ul>
+        </li>
+        <li class="price_block">
+            <!--<h3>Czas</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Czas</span>
+                    <span class="price_tenure"></span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>30-45 min.</li>
+                <li>60 min.</li>
+                <li>15-20 min</li>
+
+
+            </ul>
+        </li>
+        <li class="price_block">
+            <!--<h3>Cena</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Cena</span>
+                    <span class="price_tenure"></span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>65 zł</li>
+                <li>100 zł</li>
+                <li>35 zł</li>
+
+            </ul>
+        </li>
+        <li class="price_block">
+            <!--<h3>Pakiet</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Pakiet</span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>-</li>
+                <li>-</li>
+                <li>-</li>
+
+
+            </ul>
+        </li>
+    </ul></div>
+
+
+
+<div class="container-fluid">
+
+
+    <ul class="pricing_table">
+        <li class="price_block">
+            <!--<h3>Usługa</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Refleksoterapia stóp </span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>Stopy</li>
+
+            </ul>
+        </li>
+        <li class="price_block">
+            <!--<h3>Czas</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Czas</span>
+                    <span class="price_tenure"></span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>50-60 min.</li>
+
+
+            </ul>
+        </li>
+        <li class="price_block">
+            <!--<h3>Cena</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Cena</span>
+                    <span class="price_tenure"></span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>80 zł</li>
+
+
+            </ul>
+        </li>
+        <li class="price_block">
+            <!--<h3>Pakiet</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Pakiet</span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>10 zabiegów w cenie 9.</li>
+
+
+
+            </ul>
+        </li>
+    </ul></div>
+
+
+<div class="container-fluid">
+
+
+    <ul class="pricing_table">
+        <li class="price_block">
+            <!--<h3>Usługa</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Masaż odchudzający</span><br><span class="price_number">lub antycellulitowy</span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>Ręce/Brzuch</li>
+                <li>Nogi</li>
+                <li>Ręce,Brzuch,Nogi</li>
+            </ul>
+        </li>
+        <li class="price_block">
+            <!--<h3>Czas</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Czas</span>
+                    <span class="price_tenure"></span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>20 min.</li>
+                <li>40 min.</li>
+                <li>60 min.</li>
+
+
+            </ul>
+        </li>
+        <li class="price_block">
+            <!--<h3>Cena</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Cena</span>
+                    <span class="price_tenure"></span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>35 zł</li>
+                <li>60 zł</li>
+                <li>110 zł</li>
+
+            </ul>
+        </li>
+        <li class="price_block">
+            <!--<h3>Pakiet</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Pakiet</span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>-</li>
+                <li>10 zabiegów w cenie 9.</li>
+                <li>10 zabiegów w cenie 9.</li>
+
+
+            </ul>
+        </li>
+    </ul></div>
+
+
+<div class="container-fluid">
+
+
+    <ul class="pricing_table">
+        <li class="price_block">
+            <!--<h3>Usługa</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Masaż bańska hińską </span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>Brzuch</li>
+                <li>Kończyny górne</li>
+                <li>Kończyny dolne</li>
+                <li>Plecy</li>
+                <li>Całościowy</li>
+            </ul>
+        </li>
+        <li class="price_block">
+            <!--<h3>Czas</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Czas</span>
+                    <span class="price_tenure"></span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>30 min.</li>
+                <li>40 min.</li>
+                <li>60 min.</li>
+                <li>60 min.</li>
+                <li>90 min.</li>
+
+            </ul>
+        </li>
+        <li class="price_block">
+            <!--<h3>Cena</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Cena</span>
+                    <span class="price_tenure"></span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>40 zł</li>
+                <li>50 zł</li>
+                <li>70 zł</li>
+                <li>80 zł</li>
+                <li>120 zł</li>
+            </ul>
+        </li>
+        <li class="price_block">
+            <!--<h3>Pakiet</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Pakiet</span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>10 zabiegów w cenie 9.</li>
+                <li>10 zabiegów w cenie 9.</li>
+                <li>10 zabiegów w cenie 9.</li>
+                <li>10 zabiegów w cenie 9.</li>
+                <li>10 zabiegów w cenie 9.</li>
+
+
+            </ul>
+        </li>
+    </ul></div>
+
+
+<div class="container-fluid">
+
+
+    <ul class="pricing_table">
+        <li class="price_block">
+            <!--<h3>Usługa</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Masaż kontlaternalny</span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>
+                    -
+                </li>
+
+            </ul>
+        </li>
+        <li class="price_block">
+            <!--<h3>Czas</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Czas</span>
+                    <span class="price_tenure"></span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>indywidualnie</li>
+
+
+            </ul>
+        </li>
+        <li class="price_block">
+            <!--<h3>Cena</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Cena</span>
+                    <span class="price_tenure"></span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>indywidualnie</li>
+
+
+            </ul>
+        </li>
+        <li class="price_block">
+            <!--<h3>Pakiet</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Pakiet</span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>indywidualnie</li>
+
+
+
+            </ul>
+        </li>
+    </ul></div>
+
+
+
+<div class="cotainer-fluid price-notification">
+
+<p>*Masaże wykonujemy na oliwkach Thalgo.</p>
+<p>Na życzenie klienta poszczególne masaże możemy stosować przy użyciu kosmetyków Thalgo lub Purles (do ciała, twarzy, stóp i rąk), a także zaaplikować je po zakończeniu masażu na skórę. Wówczas do ceny każdego zabiegu należy doliczyć 10 zł.</p>
+</div>
+
+
+
+<div class="container-fluid">
+    <ul class="pricing_table">
+        <li class="price_block">
+            <!--<h3>Usługa</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number"> Rytuały Thalgo </span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>Indoceane treatment</li>
+                <li>Polynesian treatment</li>
+                <li>Mer & Sens treatment</li>
+                <li>Eye Expert Treatment</li>
+            </ul>
+        </li>
+        <li class="price_block">
+            <!--<h3>Czas</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Czas</span>
+                    <span class="price_tenure"></span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>120 min.</li>
+                <li>90 min.</li>
+                <li>90 min.</li>
+                <li>30 min.</li>
+            </ul>
+        </li>
+        <li class="price_block">
+            <!--<h3>Cena</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Cena</span>
+                    <span class="price_tenure"></span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>350 zł</li>
+                <li>300 zł</li>
+                <li>250 zł</li>
+                <li>90 zł</li>
+            </ul>
+        </li>
+        <li class="price_block">
+            <!--<h3>Pakiet</h3>-->
+            <div class="price">
+                <div class="price_figure">
+                    <span class="price_number">Pakiet</span>
+                </div>
+            </div>
+            <ul class="features">
+                <li>Sauna 30 min. grtis.</li>
+                <li>Sauna 30 min. grtis.</li>
+                <li>Sauna 30 min. grtis.</li>
+                <li>10 zabiegów w cenie 9.</li>
+
+
+            </ul>
+        </li>
+    </ul></div>
+
+
+<div class="cotainer-fluid price-notification">
+
+    <p>Rytuały wykonane są z użyciem specjalnie dedykowanych dla każdego z nich preparatów firmy Thalgo.</p>
+    <p>*Akceptujemy karty kredytowe i płatnicze VISA oraz MasterCard</p>
+</div>
+
+<footer class="footer">
+
+    <!--<button type="button" class="" >-->
+
+    <!--</button>-->
+
+
+
+
+    <p class="footer-tag">
+        <br>&copy;2017 Lalea
+    </p>
+</footer>
+
+<script src=""></script>
+<script src="../js/code.js"></script>
+<script src="../js/nav.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
+
 </html>
