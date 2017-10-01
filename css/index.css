@@ -868,6 +868,8 @@ ul#imageGallery li a {
 ul#imageGallery li a img {
     display: block;
     width: 200px;
+    height: 200px;
+    max-height: 200px;
 }
 
 #overlay {
@@ -891,6 +893,8 @@ ul#imageGallery li a img {
 #overlay .holder img {
     width: 100%;
     max-width: 600px;
+    max-height: 650px;
+    min-height: 600px;
     cursor: pointer;
     box-sizing: border-box;
     display: block;
