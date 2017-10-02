@@ -665,6 +665,44 @@ float: left;
 
 }
 
+
+
+@media screen and (max-width:768px ) {
+
+    .about-card {
+padding-top: 5%;
+        margin-left: 10%;
+        margin-right: 4%;
+        width: 80%;
+    }
+
+}
+
+
+
+@media screen and (min-width:769px ) and (max-width: 991px) {
+
+    .about-card {
+        padding-top: 5%;
+        margin-left: 5%;
+        margin-right: 4%;
+        width: 40%;
+    }
+
+}
+
+
+
+@media screen and (min-width:992px ) and (max-width : 1200px) {
+    .about-card {
+        padding-top: 5%;
+        margin-left: 5%;
+        margin-right: 4%;
+        width: 40%;
+    }
+}
+
+
 /*about end*/
 
 
