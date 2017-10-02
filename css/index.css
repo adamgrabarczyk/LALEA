@@ -240,6 +240,7 @@ width: 30%;
 .slider {
 background-color: red;
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 @media screen and (max-width: 767px){
@@ -377,7 +378,7 @@ max-width: 22%;
 
 .img-icon {
 padding-top: 5%;
-margin: 8px 0px 0px 30px;
+margin: 8px 0px 0px 10%;
     float: left;
 }
 
@@ -469,6 +470,106 @@ margin: 8px 0px 0px 30px;
 }
 
 
+@media screen and (max-width:768px ) {
+
+    .cards {
+
+        margin-left: 2%;
+        margin-bottom: 2%;
+        max-width: 50%;
+    }
+
+
+    .third-card {
+
+        margin-left: 15%;
+        margin-top: 30px;
+        max-width: 70%;
+
+    }
+
+
+    .first-card {
+        margin-left: 15%;
+        margin-top: 30px;
+        max-width: 70%;
+
+    }
+
+    .second-card {
+
+        margin-left: 15%;
+        margin-top: 30px;
+        max-width: 70%;
+
+    }
+
+    .img-icon {
+        padding-top: 1%;
+        margin: 8px 0px 0px 10%;
+        float: left;
+    }
+}
+
+@media screen and (min-width:769px ) and (max-width: 991px) {
+
+    .cards {
+
+        margin-left: 7%;
+        margin-bottom: 2%;
+        max-width: 38%;
+    }
+
+
+    .third-card {
+
+        margin-left: 25%;
+        margin-top: 30px;
+        max-width: 50%;
+    }
+
+
+    .first-card {
+        margin-left: 12%;
+    }
+
+}
+
+
+@media screen and (min-width:992px ) and (max-width : 1200px) {
+
+    .cards {
+
+        margin-left: 7%;
+        margin-bottom: 2%;
+        max-width: 38%;
+    }
+
+
+    .third-card {
+
+        margin-left: 30%;
+        margin-top: 30px;
+    }
+
+
+    .first-card {
+        margin-left: 12%;
+    }
+
+    .img-icon {
+        /*padding-top: 5%;*/
+        margin: 8px 0px 0px 15%;
+
+    }
+
+
+}
+
+
+
+
+
 
 
 
@@ -490,6 +591,27 @@ height: 0;
 }
 
 
+
+
+.google-map {
+    margin-top: 8%;
+    position: relative;
+    padding-bottom: 30%;
+    height: 0;
+    overflow: hidden;
+}
+.google-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+
+
+/*main page end*/
 
 
 
