@@ -100,6 +100,8 @@ margin-left: 2%;
 
 @media screen and (max-width: 994px) {
 
+
+
     .logo {
         margin-left: 2%;
         /*width: 70%;*/
@@ -141,6 +143,10 @@ width: 30%;
             height: 0;
         }
 
+
+        .navbar-default .navbar-nav > li > a {
+            margin-bottom: 10px;
+        }
 
     }
 
@@ -265,6 +271,10 @@ background-color: transparent;
     }
 
 
+    .img-slider {
+
+        min-height: 300px;
+    }
 
 }
 
@@ -662,7 +672,7 @@ margin: 8px 0px 0px 10%;
     opacity: 0;
 }
 #back-to-top:hover {
-    background: #e9ebec;
+    /*background: #e9ebec;*/
 }
 #back-to-top.show {
     opacity: 1;
