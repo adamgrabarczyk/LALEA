@@ -303,6 +303,7 @@ background-color: red;
 .banner img {
 margin: 2% 10% 0%;
     float: left;
+    width: 40%;
 }
 
 .banner h1 {
@@ -318,6 +319,7 @@ margin: 0 6% 8% 10%;
 .banner2 img {
     margin: 0% 10% 10%;
     float: right;
+    width: 40%;
 }
 
 .banner2 p {
@@ -331,6 +333,48 @@ margin: 0 6% 8% 10%;
 
 }
 
+
+
+@media screen and (max-width:768px ) {
+
+
+    .welcome {text-align: center }
+
+    .banner img {
+         display: none;
+    }
+
+
+
+    .banner2 img {
+        display: none;
+
+    }
+
+    .banner2 {
+        padding-bottom: 10%;
+    }
+
+    .banner2 p {
+        margin-left: 0%;
+    }
+
+    .banner2 h1 {
+        margin-left: 0%;
+    }
+}
+
+
+@media screen and (min-width:769px ) and (max-width: 991px) {
+
+
+}
+
+
+@media screen and (min-width:992px ) and (max-width : 1200px) {
+
+
+}
 
 
 
@@ -474,7 +518,7 @@ margin: 8px 0px 0px 10%;
 
     .cards {
 
-        margin-left: 2%;
+        margin-left: 0%;
         margin-bottom: 2%;
         max-width: 50%;
     }
@@ -482,25 +526,25 @@ margin: 8px 0px 0px 10%;
 
     .third-card {
 
-        margin-left: 15%;
+        margin-left: 6%;
         margin-top: 30px;
-        max-width: 70%;
+        max-width: 90%;
 
     }
 
 
     .first-card {
-        margin-left: 15%;
+        margin-left: 6%;
         margin-top: 30px;
-        max-width: 70%;
+        max-width: 90%;
 
     }
 
     .second-card {
 
-        margin-left: 15%;
+        margin-left: 6%;
         margin-top: 30px;
-        max-width: 70%;
+        max-width: 90%;
 
     }
 
@@ -571,6 +615,18 @@ margin: 8px 0px 0px 10%;
 
 
 
+
+
+
+
+
+
+
+
+
+
+/*scroll up button*/
+
 #back-to-top {
     position: fixed;
     bottom: 40px;
@@ -596,6 +652,14 @@ margin: 8px 0px 0px 10%;
 #back-to-top.show {
     opacity: 1;
 }
+
+
+/*scroll up button end*/
+
+
+
+
+
 
 
 
