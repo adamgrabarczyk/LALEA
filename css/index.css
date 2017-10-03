@@ -238,10 +238,16 @@ width: 30%;
 
 
 .slider {
-background-color: red;
+background-color: transparent;
     margin-top: 100px;
     margin-bottom: 50px;
 }
+
+
+
+
+
+
 
 @media screen and (max-width: 767px){
 
@@ -249,6 +255,15 @@ background-color: red;
 
         margin-top: 5%;
     }
+
+
+    .carousel-control .glyphicon-chevron-left, .carousel-control
+    .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+
+
+        margin-top: -35px;
+    }
+
 
 
 }
