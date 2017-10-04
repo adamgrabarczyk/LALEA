@@ -695,14 +695,6 @@ margin: 8px 0px 0px 10%;
 
 
 
-
-
-
-
-
-
-
-
 .google-maps {
     position: relative;
     padding-bottom: 30%;
@@ -1096,6 +1088,43 @@ padding-top: 2.5%;
 
 }
 
+
+
+
+
+
+.google-map {
+    margin-top: 10%;
+    position: relative;
+    padding-bottom: 30%;
+    height: 0;
+    overflow: hidden;
+}
+.google-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90% !important;
+    height: 100% !important;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+@media screen and (min-width:769px ) and (max-width: 991px) {
+
+    .google-map {
+        margin-top: 15%;
+    }
+}
+
+@media screen and (min-width:992px ) and (max-width: 1200px) {
+
+    .google-map {
+        margin-top: 15%;
+    }
+
+}
 /*contact end*/
 
 
@@ -1234,11 +1263,6 @@ padding-top: 2.5%;
     }
 
 }
-
-
-
-
-
 
 
 
