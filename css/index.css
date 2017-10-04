@@ -974,7 +974,7 @@ text-align: center;
 
 
     .offer-card {
-        padding-top: 15%;
+        padding-top: 10%;
     }
 
     .third-card-offer {
@@ -984,18 +984,31 @@ text-align: center;
     }
 
 
+    .forth-card-offer {
+        width: 40%;
+        margin-left: 5%;
+    }
+
+    .five-card-offer {
+        width: 40%;
+    }
+
+    .thumb {
+        height: 500px;
+    }
+
+}
+
+.button-off2, .button-off3 {
+
+    margin-top: 30px;
 }
 
 
 
 @media screen and (min-width:769px ) and (max-width: 991px) {
 
-    .about-card {
-        padding-top: 5%;
-        margin-left: 5%;
-        margin-right: 4%;
-        width: 40%;
-    }
+
 
 }
 
