@@ -777,8 +777,25 @@ height: 0;
 
 }
 
+.thumb-about p {
 
-.fa-heart {
+    font: 400 16px/25px 'Ubuntu',sans-serif;
+    color: #222222;
+    margin: 0 auto;
+    letter-spacing: -0.3px;
+
+}
+
+
+.thumb-about i {
+padding-top: 5%;
+    width: 75px;
+    display: inline-block;
+margin-bottom: 50px;
+}
+
+
+.icos {
 float: left;
     color: #C31401;
     padding-right: 10px;
