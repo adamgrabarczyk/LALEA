@@ -824,6 +824,23 @@ float: left;
 }
 
 
+.about-img {
+
+    width: 30%;
+    float: left;
+    padding-right: 5px;
+}
+
+.img-about {
+    margin-top: 10%;
+}
+
+.img-about p {
+
+    width: 100%;
+}
+
+
 @media screen and (max-width:768px ) {
 
     .about-card {
