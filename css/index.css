@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Play');
 
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
 
 body, html {
@@ -10,6 +11,22 @@ body, html {
 body {
 
     background-color: transparent;
+}
+
+h1, h3 , h2 {
+
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+p, span {
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: Ubuntu, sans-serif;
+
 }
 
 /*NAWIGACJA*/
@@ -38,9 +55,13 @@ height: 120px;
 .navbar-default .navbar-nav>li>a {
 font-size: 1.3em;
     margin-top: 50px;
-   font-family: 'Play', sans-serif;
+   font-family: 'Roboto Slab', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
     color: black;
+    text-transform: uppercase;
 min-width: 90px;
+
 }
 
 
@@ -1141,19 +1162,19 @@ padding-top: 2.5%;
 }
 
 .span1 {
-    width: 105px;
+    width: 108px;
 }
 
 .span6 {
-    width: 104px;
+    width: 107px;
 }
 
 .span2 {
-    width: 108px;
+    width: 110px;
 }
 
 .span7 {
-    width: 108px;
+    width: 109px;
 }
 
 .span3 {
@@ -1161,7 +1182,7 @@ padding-top: 2.5%;
 }
 
 .span4 {
-    width: 108px;
+    width: 107px;
 }
 
 .span5 {
