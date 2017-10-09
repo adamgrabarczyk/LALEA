@@ -1136,13 +1136,37 @@ padding-top: 2.5%;
 
 .contact-data p span {
 
-    width: 105px;
     display: inline-block;
 
 }
 
+.span1 {
+    width: 105px;
+}
 
+.span6 {
+    width: 104px;
+}
 
+.span2 {
+    width: 108px;
+}
+
+.span7 {
+    width: 108px;
+}
+
+.span3 {
+    width: 110px;
+}
+
+.span4 {
+    width: 108px;
+}
+
+.span5 {
+    width: 110px;
+}
 
 
 
