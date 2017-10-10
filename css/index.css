@@ -1097,6 +1097,11 @@ padding-top: 5%;
         text-align: center;
     }
 
+    .thumb-about i {
+        padding-top: 0%;
+
+
+    }
 
 }
 
@@ -1109,6 +1114,12 @@ padding-top: 5%;
         margin-left: 5%;
         margin-right: 4%;
         width: 40%;
+    }
+
+    .thumb-about i {
+        padding-top: 0%;
+
+
     }
 
 }
