@@ -344,7 +344,7 @@ margin-top: 8%;
 
 
 .with-thin-border-offer {
-    margin-top: 6.5%;
+    margin-top: 6.6%;
     top: 0;
     right: 0;
     left: 0;
@@ -371,6 +371,21 @@ margin-top: 8%;
     z-index: 9;
 
 }
+
+
+@media screen and (max-width: 767px){
+
+    .with-border:before {
+        top: 45px;
+    }
+
+
+    .with-thin-border-offer {
+        margin-top: 4%;
+        /*top:6%;*/
+    }
+}
+
 /*border end*/
 
 
