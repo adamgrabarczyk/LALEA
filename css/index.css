@@ -333,7 +333,38 @@ margin-top: 8%;
 }
 
 
-/*border en*/
+/*///////////////////////////////////*/
+
+
+.with-thin-border-offer {
+    margin-top: 6.5%;
+    top: 0;
+    right: 0;
+    left: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 8px;
+    background: url(../images/ladder.png) repeat-x transparent;
+    z-index: 9;
+
+}
+
+.with-thin-border-offer1 {
+    /*margin-top: 8%;*/
+    /*position: absolute;*/
+    top: 0;
+    right: 0;
+    left: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 8px;
+    background: url(../images/ladder.png) repeat-x transparent;
+    z-index: 9;
+
+}
+/*border end*/
 
 
 
