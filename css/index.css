@@ -1207,6 +1207,13 @@ text-align: center;
     color: #ffffff;
 }
 
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,
+.open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover   {
+
+    background-color: #c2685e;
+    color: #ffffff;
+}
+
 .thumb {
 
     border-radius: 0px;
@@ -1245,12 +1252,12 @@ text-align: center;
     }
 
     .thumb {
-        height: 500px;
+        height: 525px;
     }
 
     .button-off2 {
 
-        margin-bottom: -67px;
+        margin-bottom: 0px;
     }
 
     .forth-card-offer {
@@ -1265,6 +1272,11 @@ text-align: center;
         margin-right: 10%;
     }
 
+    .third-card-offer p a {
+
+
+    }
+
 }
 
 
@@ -1272,7 +1284,8 @@ text-align: center;
 
 
     .offer-card {
-        padding-top: 10%;
+        padding-top: 2%;
+        width: 33.33%;
     }
 
     .third-card-offer {
@@ -1292,17 +1305,21 @@ text-align: center;
     }
 
     .thumb {
-        height: 500px;
+        height: 525px;
     }
 
 }
 
-.button-off2, .button-off3 {
+.button-off2 {
 
-    margin-top: 30px;
+    margin-top: 5px;
 }
 
 
+.button-off3 {
+
+ margin-top: 0px;
+  }
 
 @media screen and (min-width:769px ) and (max-width: 991px) {
 
