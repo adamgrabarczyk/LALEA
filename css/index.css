@@ -31,6 +31,46 @@ p, span {
 
 /*NAWIGACJA*/
 
+.with-border::before {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 7px;
+    background: url(../images/ladder-top.png) repeat-x transparent;
+    background-image: url(../images/ladder-top.png);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: transparent;
+    z-index: 9;
+}
+
+
+.block-slider.with-border:after {
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    left: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 7px;
+    background: url(../img/ladder-bottom.png) repeat-x transparent;
+    z-index: 99;
+    padding-bottom: 7px;
+    border-bottom: 10px solid #fff;
+}
+
+
 .sidebar-nav {
     padding: 9px 0;
 }
@@ -759,8 +799,14 @@ height: 0;
 
 .about {
 
-    padding-top: 10%;
+    padding-top: 5%;
 }
+
+.par-about{
+    padding-bottom: 5%;
+}
+
+
 
 
 .thumb-about {
@@ -771,10 +817,11 @@ height: 0;
 
 .about-card {
 
-    margin-left: 4%;
-    width: 20%;
+    padding-top: 5%;
+    margin-left: 0%;
+    width: 25%;
 
-    height: 500px;
+    height: 100%;
 }
 
 
