@@ -235,6 +235,23 @@ width: 30%;
     border-top: 10px solid #fff;
 }
 
+/*////////////////////////////*/
+
+.block2.with-border2:after {
+    position: absolute;
+    bottom: -359%;
+    right: 0;
+    left: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 7px;
+    background: url(../images/ladder-bottom.png) repeat-x transparent;
+    z-index: 99;
+    padding-bottom: 7px;
+    border-bottom: 25px solid #fff;
+}
+
 /*border en*/
 
 
@@ -1664,7 +1681,7 @@ ul#imageGallery li a img {
     text-align: center;
 /*background: ;*/
   /*background-color: #CCCCCC;*/
-    opacity: 0.8;
+    /*opacity: 0.8;*/
     background-color: #FFFFFF;
 }
 .footer-tag {
