@@ -1433,34 +1433,40 @@ padding-top: 2.5%;
 }
 
 .span1 {
-    width: 160px;
+    width: 180px;
 }
 
 .span6 {
-    width: 160px;
+    width: 180px;
 }
 
 .span2 {
-    width: 165px;
+    width: 185px;
 }
 
 .span7 {
-    width: 162px;
+    width: 182px;
 }
 
 .span3 {
-    width: 165px;
+    width: 185px;
 }
 
 .span4 {
-    width: 160px;
+    width: 180px;
 }
 
 .span5 {
-    width: 162px;
+    width: 182px;
 }
 
+.contact-data h2, h3, h4 {
 
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+
+}
 
 .google-map {
     margin-top: 5%;
@@ -1480,17 +1486,96 @@ padding-top: 2.5%;
 }
 
 
+@media screen and (max-width:768px ) {
+
+.contact-data h2, h3, h4 {
+    padding-top: 10px;
+padding-bottom: 20px;
+
+}
+
+    .contact-data address p {
+
+        padding-top: 20px;
+        /*margin-left: 32%;*/
+    }
+
+}
+
 @media screen and (min-width:769px ) and (max-width: 991px) {
 
     .google-map {
         margin-top: 5%;
     }
+
+    .span1 {
+        width: 90px;
+    }
+
+    .span6 {
+        width: 90px;
+    }
+
+    .span2 {
+        width: 95px;
+    }
+
+    .span7 {
+        width: 92px;
+    }
+
+    .span3 {
+        width: 95px;
+    }
+
+    .span4 {
+        width: 90px;
+    }
+
+    .span5 {
+        width: 92px;
+    }
+
+   .contact-form address {
+
+   margin-bottom: 0px;
+   }
 }
 
 @media screen and (min-width:992px ) and (max-width: 1200px) {
 
     .google-map {
         margin-top: 5%;
+    }
+
+
+
+    .span1 {
+        width: 160px;
+    }
+
+    .span6 {
+        width: 160px;
+    }
+
+    .span2 {
+        width: 165px;
+    }
+
+    .span7 {
+        width: 162px;
+    }
+
+    .span3 {
+        width: 165px;
+    }
+
+    .span4 {
+        width: 160px;
+    }
+
+    .span5 {
+        width: 162px;
     }
 
 }
