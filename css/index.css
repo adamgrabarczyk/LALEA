@@ -383,7 +383,7 @@ margin-top: 8%;
 
 
     .with-thin-border-offer {
-        margin-top: 4%;
+    display: none;
         /*top:6%;*/
     }
 }
@@ -1593,6 +1593,11 @@ padding-top: 2.5%;
             padding: 0px;
         }
 
+        .price-list {
+
+            height: 578px;
+        }
+
     }
 }
 
@@ -1606,12 +1611,24 @@ padding-top: 2.5%;
     padding: 0px;
 }
 
+   .price-list {
+
+height: 578px;
+   }
 
     .img-special {
         padding-bottom: 16px;
     }
 
+    /*.price-list {*/
+
+        /*height: 300px;*/
+    /*}*/
+
 }
+
+
+
 
 
 
