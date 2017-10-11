@@ -1696,12 +1696,13 @@ padding-top: 2.5%;
 /*Gallery*/
 
 .cont-gallery {
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 .cont-gallery h1 {
     color: #000;
     text-align: center;
+    padding-bottom: 4%;
 }
 
 ul#imageGallery {
