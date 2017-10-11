@@ -647,7 +647,7 @@ margin: 0 6% 8% 10%;
 
 .parallax {
     /* The image used */
-    background-image: url('https://livedemo00.template-help.com/wt_52897/img/index_parallax.jpg');
+    background-image: url('../images/background_parallax.jpg');
 
     /* Full height */
     min-height: 20%;
