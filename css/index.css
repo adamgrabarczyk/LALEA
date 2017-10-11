@@ -950,7 +950,7 @@ height: 0;
 
 
 .google-map {
-    margin-top: 8%;
+    margin-top: 5%;
     position: relative;
     padding-bottom: 30%;
     height: 0;
@@ -1339,7 +1339,7 @@ text-align: center;
 
 .contact-form {
 
-    padding-top: 10%;
+    padding-top: 2%;
 }
 
 
@@ -1393,7 +1393,7 @@ padding-top: 2.5%;
 
 .contact-data {
 
-    padding-top: 10%;
+    padding-top: 2%;
 }
 
 .contact-data p {
@@ -1443,7 +1443,7 @@ padding-top: 2.5%;
 
 
 .google-map {
-    margin-top: 10%;
+    margin-top: 5%;
     position: relative;
     padding-bottom: 30%;
     height: 0;
@@ -1463,14 +1463,14 @@ padding-top: 2.5%;
 @media screen and (min-width:769px ) and (max-width: 991px) {
 
     .google-map {
-        margin-top: 15%;
+        margin-top: 5%;
     }
 }
 
 @media screen and (min-width:992px ) and (max-width: 1200px) {
 
     .google-map {
-        margin-top: 15%;
+        margin-top: 5%;
     }
 
 }
